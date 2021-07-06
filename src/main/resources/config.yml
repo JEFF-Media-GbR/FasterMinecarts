@@ -1,0 +1,20 @@
+# Commands:
+#  /fasterminecarts reload - Reloads the config file (Permission: fasterminecarts.reload)
+
+
+# The default speed is 8 blocks per second
+# The max speed is capped at 20 blocks per second. Going faster is not possible.
+minecart: 8
+minecart-chest: 8
+minecart-furnace: 8
+minecart-tnt: 8
+minecart-hopper: 8
+minecart-command: 8
+minecart-mob-spawner: 8
+
+# When true, shows the speed to all players riding a minecart using the action bar
+speedometer: false
+# The speedometer text. %.2f is the speed with 2 decimal places.
+speedometer-text: "&aSpeed: %.2f B/s"
+
+debug: false
