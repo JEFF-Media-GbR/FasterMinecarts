@@ -19,6 +19,9 @@ public class MinecartListener implements Listener {
         Minecart minecart = (Minecart) event.getVehicle();
         double maxSpeed = main.getMaxSpeed(minecart);
         minecart.setMaxSpeed(maxSpeed);
+        if(Config.get().isDebug()) {
+            System.out.println("Max Speed: " + maxSpeed);
+        }
     }
 
 }

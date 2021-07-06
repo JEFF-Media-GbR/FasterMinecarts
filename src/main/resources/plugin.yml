@@ -2,6 +2,7 @@ name: FasterMinecarts
 main: de.jeff_media.fasterminecarts.FasterMinecarts
 version: ${project.version}
 description: "Adjusts the speed of Minecarts"
+api-version: "1.13"
 
 depend:
 

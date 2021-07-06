@@ -27,7 +27,6 @@ public class Messages {
         try {
             config.load(new InputStreamReader(main.getResource("messages.yml")));
             config.load(Files.MESSAGE_YML);
-            System.out.println("Messages loaded!");
         } catch (IOException | InvalidConfigurationException e) {
             main.getLogger().severe("Your messages.yml file is invalid! Default messages will be used instead.");
         }
